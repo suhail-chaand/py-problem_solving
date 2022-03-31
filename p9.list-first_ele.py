@@ -3,14 +3,14 @@
 my_list = list(input('Enter list items: ').split())
 
 #Raw
-print('Raw method')
+print('Raw method--------------------')
 try:
     print('First element = ',my_list[0])
 except:
     print('Empty list!')
 
 #Function
-print('Function method')
+print('Function method--------------------')
 
 def first_ele(l):
     try:
@@ -21,7 +21,7 @@ def first_ele(l):
 print(first_ele(my_list))
 
 #OOP
-print('OOP method')
+print('OOP method--------------------')
 
 class FirstElement:
     def __init__(self,l) -> None:

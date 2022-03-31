@@ -1,4 +1,4 @@
-#write a program to print the duplicates number from the list: 
+#Write a program to print the duplicate numbers from the list: 
 #[12,24,35,70,88,120,155,99,12,7,8,93,67,47,76,34,43,76,23,1,12,88,7,6,2].
 #Print output in comma separated list.
 

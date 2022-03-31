@@ -1,8 +1,8 @@
 #Write a program which accepts a sequence of words separated by whitespace as input 
 #and print the words composed of digits only.
-#Example 
-#Input: 2 cats and 3 dogs
-#Output: ['2', '3'] [‘cats’, ‘dogs’]
+    #Example:- 
+    #Input: 2 cats and 3 dogs
+    #Output: ['2', '3'] [‘cats’, ‘dogs’]
 
 in_str = input('Enter a string: ')
 

@@ -1,13 +1,13 @@
-#Convert Age to Days
+#Convert age to days
 
 age = float(input('Enter age: '))
 
 #Raw
-print('Raw method')
+print('Raw method--------------------')
 print('Number of days old = {}'.format(age*365))
 
 #Function
-print('Function method')
+print('Function method--------------------')
 
 def years_days(yr):
     return 'Number of days old = {}'.format(yr*365)
@@ -15,7 +15,7 @@ def years_days(yr):
 print(years_days(age))
 
 #OOP
-print('OOP method')
+print('OOP method--------------------')
 
 class AgeToDays:
     def __init__(self,yr):

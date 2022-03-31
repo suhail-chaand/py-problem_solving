@@ -1,15 +1,16 @@
-#Boolean to String
+#Boolean to String conversion
+
 #bool(str) - empty strings evaluate to False, but everything else evaluates to True
 bool_val = bool(input('Enter a boolean value: '))
 print('"{}" is of type {}'.format(bool_val,type(bool_val)))
 
 #Raw
-print('Raw method')
+print('Raw method--------------------')
 str_val = str(bool_val)
 print('String form: {} of type {}'.format(str_val,type(str_val)))
 
 #Function
-print('Function method')
+print('Function method--------------------')
 
 def string(boolean):
     sv = str(boolean)
@@ -18,7 +19,7 @@ def string(boolean):
 print(string(bool_val))
 
 #OOP
-print('OOP method')
+print('OOP method--------------------')
 
 class StringToBool:
     def __init__(self,boolean) -> None:

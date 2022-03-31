@@ -1,13 +1,13 @@
-#Convert Hours and Minutes into Seconds
+#Convert hours and minutes into seconds
 
 hr, min = map(int,input('hh:mm = ').split(':'))
 
 #Raw
-print('Raw method')
+print('Raw method--------------------')
 print('Number of seconds = {} seconds'.format(hr*60*60+min*60))
 
 #Function
-print('Function method')
+print('Function method--------------------')
 
 def secs(hours, minutes):
     return 'Number of seconds = {} seconds'.format(hours*60*60+minutes*60)
@@ -15,7 +15,7 @@ def secs(hours, minutes):
 print(secs(hr,min))
 
 #OOP
-print('OOP method')
+print('OOP method--------------------')
 
 class HourMinutesToSeconds:
     def __init__(self,hours,minutes) -> None:

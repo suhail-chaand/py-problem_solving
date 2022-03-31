@@ -13,14 +13,14 @@ cows = int(input('Enter number of cows: '))
 pigs = int(input('Enter number of pigs: '))
 
 #Function
-print('Function method')
+print('Function method--------------------')
 def count_legs(chicken,cow,pig):
     return 'Total leg count = {}'.format(chicken*2+cow*4+pig*4)
 
 print(count_legs(chickens,cows,pigs))
 
 #OOP
-print('OOP method')
+print('OOP method--------------------')
 
 class LegCount:
     def __init__(self,chicken,cow,pig) -> None:

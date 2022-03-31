@@ -1,13 +1,13 @@
-#Convert hours to seconds
+#Convert hours into seconds
 
 hr = int(input('Enter the number of hours: '))
 
 #Raw
-print('Raw method')
+print('Raw method---------------------')
 print('{} hours in seconds: {} seconds'.format(hr,hr*60*60))
 
 #Function
-print('Function method')
+print('Function method--------------------')
 
 def hr_to_sec(hour):
     return hour*60*60
@@ -15,7 +15,7 @@ def hr_to_sec(hour):
 print('{} hours in seconds: {} seconds'.format(hr,hr_to_sec(hr)))
 
 #OOP
-print('OOP method')
+print('OOP method--------------------')
 
 class HourToSeconds:
     def __init__(self,hour):

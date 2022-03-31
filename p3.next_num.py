@@ -1,13 +1,13 @@
-#Return the Next Number from the Integer Passed
+#Return the next number from the integer passed
 
 num = int(input('Enter an Integer: '))
 
 #Raw
-print('Raw method')
+print('Raw method--------------------')
 print('Next integer is',(num+1))
 
 #Function
-print('Function method')
+print('Function method--------------------')
 
 def find_next_int(n):
     return n+1
@@ -15,7 +15,7 @@ def find_next_int(n):
 print('Next integer is',find_next_int(num))
 
 #OOP
-print('OOP method')
+print('OOP method--------------------')
 
 class NextInt:
     def __init__(self,n) -> None:

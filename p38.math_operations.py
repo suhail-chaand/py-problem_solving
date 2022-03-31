@@ -1,4 +1,4 @@
-#Write a program to perform all basic mathematical operations.
+#Write a program to perform all basic mathematical operations
 
 num1, num2 = map(float,input('Enter two numbers: ').split())
 

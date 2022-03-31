@@ -4,14 +4,14 @@ work = float(input('Work done in Joules = '))
 time = int(input('Time in seconds = '))
 
 #Raw
-print('Raw method')
+print('Raw method--------------------')
 try:
     print('Power = {} Watt'.format(work//time))
 except:
     print('Time taken cannot be ZERO')
 
 #Function
-print('Function method')
+print('Function method--------------------')
 
 def power(w,t):
     try:
@@ -22,7 +22,7 @@ def power(w,t):
 print(power(work,time))
 
 #OOP
-print('OOP method')
+print('OOP method--------------------')
 
 class PowerCalulator:
     def __init__(self,w,t) -> None:

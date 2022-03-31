@@ -10,14 +10,14 @@ draws = int(input('Enter number of draws: '))
 losses = int(input('Enter number of losses: '))
 
 #Function
-print('Function method')
+print('Function method--------------------')
 def calc_points(win,draw):
     return 'Total points = {}'.format(win*3+draw*1)
 
 print(calc_points(wins,draws))
 
 #OOP
-print('OOP method')
+print('OOP method--------------------')
 class FootballPoints:
     def __init__(self,win,draw):
         self.win=win

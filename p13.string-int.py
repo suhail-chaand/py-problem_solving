@@ -7,7 +7,7 @@ except:
     print('Invalid integer input!')
 
 #Raw
-print('Raw method')
+print('Raw method--------------------')
 try:
     str_int = int(str_val)
     print('String to Integer => {} of type {}'.format(str_int,type(str_int)))
@@ -20,7 +20,7 @@ except:
     pass
 
 #Function
-print('Function method')
+print('Function method--------------------')
 
 def integer(string):
     try:
@@ -40,7 +40,7 @@ except:
     pass
 
 #OOP
-print('OOP method')
+print('OOP method--------------------')
 class StringInteger:
     def integer(self,string):
         try:
