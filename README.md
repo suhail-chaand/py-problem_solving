@@ -82,10 +82,11 @@ Minimum length of transaction password: 7
 No space accepted
 Maximum length of transaction password: 12 Your program should accept a sequence of comma separated passwords and will check them according to the above criteria. Passwords that match the criteria are to be printed, each separated by a comma. Example If the following passwords are given as input to the program: ABd1234@1, Then, the output of the program should be: ABd1234@1
  
-write a program to sort the data by ascending and descending order 
-Take list of data - you can take input from console or define list
-Define a function that can accept two strings as input and print the string with maximum length in the console. If two strings have the same length, then the function should print all strings line by line.
-Write a function to compute 5/0 and use try/except to catch the exceptions.
+34. Write a program to sort the data by ascending and descending order. Take a list of data: you can take input from console or define a list.
+
+35. Define a function that can accept two strings as input and print the string with maximum length in the console. If two strings have the same length, then the function should print all strings line by line.
+
+*36. Write a function to compute 5/0 and use try/except to catch the exceptions.
 
 37. Write a program which accepts a sequence of words separated by whitespace as input to print the words composed of digits only.
     - Example:- 
@@ -103,7 +104,8 @@ Write a function to compute 5/0 and use try/except to catch the exceptions.
 
 41. Write a program which accepts a string from the console and print it in reverse order.
 
-Write a function to replace word with another word and another function to replace only alphabet 
+42. Write a function to replace word with another word and another function to replace only an alphabet
+ 
 Find the day of the week from given date , dae input from console 
 Create a list by picking an odd-index items from the first list and even index items from the second
 l1 = [3, 6, 9, 12, 15, 18, 21]
