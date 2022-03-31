@@ -106,25 +106,21 @@ Maximum length of transaction password: 12 Your program should accept a sequence
 
 42. Write a function to replace word with another word and another function to replace only an alphabet
  
-Find the day of the week from given date , dae input from console 
-Create a list by picking an odd-index items from the first list and even index items from the second
-l1 = [3, 6, 9, 12, 15, 18, 21]
-l2 = [4, 8, 12, 16, 20, 24, 28] 
-Output 
-Element at odd-index positions from list one
-[6, 12, 18]
-Element at even-index positions from list two
-[4, 12, 20, 28]
+43. Find the day of the week from given date
 
-Printing Final third list
-[6, 12, 18, 4, 12, 20, 28]
+44. Create a list by picking an odd-index items from the first list and even index items from the second
+    l1 = [3, 6, 9, 12, 15, 18, 21]
+    l2 = [4, 8, 12, 16, 20, 24, 28] 
+    Output:
+	Element at odd-index positions from list one: [6, 12, 18]
+	Element at even-index positions from list two: [4, 12, 20, 28]
+	Printing Final third list: [6, 12, 18, 4, 12, 20, 28]
 
-Remove items from list 
-list1 = [54, 44, 27, 79, 91, 41]
-Out
-List After removing element at index 4  [34, 54, 67, 89, 43, 94]
-List after Adding element at index 2  [34, 54, 11, 67, 89, 43, 94]
-List after Adding element at last  [34, 54, 11, 67, 89, 43, 94, 11]
+45. Consider the list [54, 44, 27, 79, 91, 41, 36, 87, 10]
+    Output:
+	my_list after removing an element at index 4: [54, 44, 27, 79, 41, 36, 87, 10]
+	my_list after adding an element at index 2: [54, 44, 11, 27, 79, 41, 36, 87, 10]
+	my_list after addding an element at the last [54, 44, 11, 27, 79, 41, 36, 87, 10, 99]
 
 Slice list into 3 chunks and reverse each chunks 
 sample_list = [11, 45, 8, 23, 14, 12, 78, 45, 89] 
