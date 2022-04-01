@@ -122,25 +122,39 @@ Maximum length of transaction password: 12 Your program should accept a sequence
 	my_list after adding an element at index 2: [54, 44, 11, 27, 79, 41, 36, 87, 10]
 	my_list after addding an element at the last [54, 44, 11, 27, 79, 41, 36, 87, 10, 99]
 
-Slice list into 3 chunks and reverse each chunks 
-sample_list = [11, 45, 8, 23, 14, 12, 78, 45, 89] 
-Count Occurance of each element from list
-sample_list = [11, 45, 8, 11, 23, 45, 23, 45, 89]
-Concant two list index wise 
-list1 = ["M", "na", "i", "Ke"]
-list2 = ["y", "me", "s", "lly"]
-Concatenate two list in following 
-list1 = ["Hello ", "take "]
-list2 = ["Dear", "Sir"]  output : ['Hello Dear', 'Hello Sir', 'take Dear', 'take Sir']
-Take two list and Iterate both list simultaneously and print output
-Extend nested list by adding sub list with specific index taken from console 
-Reverse the tuple
-Remove repetitive elements from the list, list length should be 25 include number, char etc
-Sort tuple by 2nd item tuple1 = (('a', 23),('b', 37),('c', 11), ('d',29))
-Calculate no of days between two date , take input from console 
-Modify the tuple
-Calculate the date 7 month from any date, take date input from console
- Convert list into dictionary and add new item into dictionary
+46. Slice list into 3 chunks and reverse each chunk 
+    list = [11, 45, 8, 23, 14, 12, 78, 45, 89] 
+
+47. Count occurances of each element from a list
+    list = [11, 45, 8, 11, 23, 45, 23, 45, 89]
+
+48. Concant two lists index wise 
+    list1 = ["M", "na", "i", "Ke"]
+    list2 = ["y", "me", "s", "lly"]
+
+49. Concatenate two list as
+    list1 = ["Hello ", "take "]
+    list2 = ["Dear", "Sir"]  
+    Output: ['Hello Dear', 'Hello Sir', 'take Dear', 'take Sir']
+
+50. Take two list and iterate both lists simultaneously and print output
+
+51. Extend nested list by adding sub list with specific index taken from console
+
+52. Reverse a tuple
+
+53. Remove repetitive elements from the list; list length should be 25 include number, char etc.
+
+54. Sort tuple by 2nd item: (('a', 23),('b', 37),('c', 11), ('d',29))
+
+55. Calculate no of days between two dates; take input from console 
+
+56. Modify a tuple
+
+57. Calculate the date 7 months from a date; take date input from console
+
+58. Convert list into dictionary and add new item into dictionary
+
 Merge two dictionaries into one and rename dictionary key name 
  Check if key exists in dictionary and delete that key value from dictionary
 Get only unique items from dictionary
