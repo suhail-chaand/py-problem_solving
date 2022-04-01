@@ -155,8 +155,11 @@ Maximum length of transaction password: 12 Your program should accept a sequence
 
 58. Convert list into dictionary and add new item into dictionary
 
-Merge two dictionaries into one and rename dictionary key name 
- Check if key exists in dictionary and delete that key value from dictionary
-Get only unique items from dictionary
-Return new set of identical items from two sets
+59. Merge two dictionaries into one and rename dictionary key name 
+
+60. Check if key exists in dictionary and delete that key value from dictionary
+
+61. Get only unique items from dictionary
+
+62. Return new set of identical items from two sets
 
