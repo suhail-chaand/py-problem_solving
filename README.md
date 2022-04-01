@@ -96,7 +96,7 @@
     Minimum length of transaction password: 7
     No space accepted
     Maximum length of transaction password: 12 
-    Your program should accept a sequence of comma separated passwords and will check them according to the above criteria. Passwords that match the criteria are to be printed, each separated by a comma. 
+Your program should accept a sequence of comma separated passwords and will check them according to the above criteria. Passwords that match the criteria are to be printed, each separated by a comma. 
     Input: ABd1234@1 
     Output: ABd1234@1
  
