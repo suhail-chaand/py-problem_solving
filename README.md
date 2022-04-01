@@ -35,58 +35,76 @@
 
 13. Convert string to integer and vice-versa
 
-Check if objOne Is Equal to objTwo
-Create a function that checks to see if two object arguments are equal to one another. Return True if the objects are equal, otherwise, return False.
-Find the Largest Number in a List
-Create a function that takes a list of numbers. Return the largest number in the list.
-Find the Smallest Number in a List
-Create a function that takes a list of numbers and returns the smallest number in the list.
-Difference of Max and Min Numbers in List
-Create a function that takes a list and returns the difference between the biggest and smallest numbers.
-Concatenating Two Integer Lists
-Create a function to concatenate two integer lists.
-Maximum Difference
-Given a list of integers, return the difference between the largest and smallest integers in the list.
-Return the Last Element in a List
-Create a function that accepts a list and returns the last item in the list. The list can be either homogeneous or heterogeneous.
-Check if an Integer is Divisible By Five
-Create a function that returns True if an integer is evenly divisible by 5, and False otherwise.
-Get the Sum of All List Elements
-Create a function that takes a list and returns the sum of all numbers in the list.
-Compare Strings by Count of Characters
-Create a function that takes two strings as arguments and return either True or False depending on whether the total number of characters in the first string is equal to the total number of characters in the second string.
-Divides Evenly
-Given two integers, a and b, return True if a can be divided evenly by b. Return False otherwise.
-Recursion to Repeat a String n Number of Times
-Create a recursive function that takes two parameters and repeats the string n number of times. The first parameter text is the string to be repeated and the second parameter is the number of times the string is to be repeated.
-Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5. The numbers obtained should be printed in a comma-separated sequence on a single line.
-You can take any range like 2000-4700 or 3800-4900 etc 
-Check if both range number also included in output 
-Define a class/function which has at least two methods: getString: to get a string from console input printString: to print the string in upper case. 
-Write a program that accepts a comma separated sequence of words as input and prints the words in a comma-separated sequence after sorting them alphabetically. 
-Write a program, which will find all such numbers between 0 and n (both included) such that each digit of the number is an even number. The numbers obtained should be printed in a comma-separated sequence on a single line.
-N is take input from console 
-Write a program that accepts a sentence and calculate the number of letters and digits and also calculates the upper and lower case letters
-Write a program to square each odd number in a list. 
-Take a list - list contains at least 20 elements
-Write a program that computes the net amount of a bank account based on a transaction log from console input. 
-Log format is :  D 100 W 200
-D means deposit while W means withdrawal. Suppose the following input is supplied to the program: D 300 D 300 W 200 D 100 Then, the output should be: 500
-Write a program to check the validity of password input by users. 
-Following are the criteria for checking the password:
-At least 1 letter between [a-z]
-At least 1 number between [0-9]
-At least 1 letter between [A-Z]
-At least 1 character from [$#@]
-Minimum length of transaction password: 7
-No space accepted
-Maximum length of transaction password: 12 Your program should accept a sequence of comma separated passwords and will check them according to the above criteria. Passwords that match the criteria are to be printed, each separated by a comma. Example If the following passwords are given as input to the program: ABd1234@1, Then, the output of the program should be: ABd1234@1
+14. Check if obj1 Is Equal to obj2
+    Create a function that checks to see if two object arguments are equal to one another. Return True if the objects are equal, otherwise, return False.
+
+15.Find the largest number in a list
+    Create a function that takes a list of numbers. Return the largest number in the list.
+
+16.Find the smallest number in a list
+    Create a function that takes a list of numbers and returns the smallest number in the list.
+
+17.Difference of max and min numbers in a list
+    Create a function that takes a list and returns the difference between the biggest and smallest numbers.
+
+18.Concatenating two integer lists
+    Create a function to concatenate two integer lists.
+
+19.Maximum Difference
+    Given a list of integers, return the difference between the largest and the smallest integers in the list.
+
+20.Return the last element in a list
+    Create a function that accepts a list and returns the last item in the list. The list can be either homogeneous or heterogeneous.
+
+21.Check if an Integer is divisible by five
+    Create a function that returns True if an integer is evenly divisible by 5, and False otherwise.
+
+22.Get the sum of all list elements
+    Create a function that takes a list and returns the sum of all numbers in the list.
+
+23.Compare strings by count of characters
+    Create a function that takes two strings as arguments and return either True or False depending on whether the total number of characters in the first string is equal to the total number of characters in the second string.
+
+24.Divides evenly
+    Given two integers, a and b, return True if a can be divided evenly by b. Return False otherwise.
+
+25.Recursion to repeat a string n number of times
+    Create a recursive function that takes two parameters and repeats the string n number of times. The first parameter text is the string to be repeated and the second parameter is the number of times the string is to be repeated.
+
+26.Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5. The numbers obtained should be printed in a comma-separated sequence on a single line. You can take any range like 2000-4700 or 3800-4900 etc. Check if both range numbers are also included in the output. 
+
+27.Define a class/function which has at least two methods: getString: to get a string from console input; printString: to print the string in upper case.
+
+28.Write a program that accepts a comma separated sequence of words as input and prints the words in a comma-separated sequence after sorting them alphabetically. 
+
+29.Write a program, which will find all such numbers between 0 and n (both included) such that each digit of the number is an even number. The numbers obtained should be printed in a comma-separated sequence on a single line. n: take input from console. 
+
+30.Write a program that accepts a sentence and calculate the number of letters and digits and also calculates the upper and lower case letters.
+
+31.Write a program to square each odd number in a list. Take a list that contains at least 20 elements.
+
+32.Write a program that computes the net amount of a bank account based on a transaction log from console input. 
+    Log format is :  D 100 W 200; D means deposit while W means withdrawal. 
+    Input: D 300 D 300 W 200 D 100
+    Output: 500
+
+33.Write a program to check the validity of password input by users. Following are the criteria for checking the password:
+    At least 1 letter between [a-z]
+    At least 1 number between [0-9]
+    At least 1 letter between [A-Z]
+    At least 1 character from [$#@]
+    Minimum length of transaction password: 7
+    No space accepted
+    Maximum length of transaction password: 12 
+    Your program should accept a sequence of comma separated passwords and will check them according to the above criteria. Passwords that match the criteria are to be printed, each separated by a comma. 
+    Input: ABd1234@1 
+    Output: ABd1234@1
  
 34. Write a program to sort the data by ascending and descending order. Take a list of data: you can take input from console or define a list.
 
 35. Define a function that can accept two strings as input and print the string with maximum length in the console. If two strings have the same length, then the function should print all strings line by line.
 
-*36. Write a function to compute 5/0 and use try/except to catch the exceptions.
+36. Write a function to compute 5/0 and use try/except to catch the exceptions.
 
 37. Write a program which accepts a sequence of words separated by whitespace as input to print the words composed of digits only.
     - Example:- 
@@ -162,4 +180,3 @@ Maximum length of transaction password: 12 Your program should accept a sequence
 61. Get only unique items from dictionary
 
 62. Return new set of identical items from two sets
-
