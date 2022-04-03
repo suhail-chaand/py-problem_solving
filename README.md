@@ -38,57 +38,57 @@
 14. Check if obj1 Is Equal to obj2
     Create a function that checks to see if two object arguments are equal to one another. Return True if the objects are equal, otherwise, return False.
 
-15.Find the largest number in a list
+15. Find the largest number in a list
     Create a function that takes a list of numbers. Return the largest number in the list.
 
-16.Find the smallest number in a list
+16. Find the smallest number in a list
     Create a function that takes a list of numbers and returns the smallest number in the list.
 
-17.Difference of max and min numbers in a list
+17. Difference of max and min numbers in a list
     Create a function that takes a list and returns the difference between the biggest and smallest numbers.
 
-18.Concatenating two integer lists
+18. Concatenating two integer lists
     Create a function to concatenate two integer lists.
 
-19.Maximum Difference
+19. Maximum Difference
     Given a list of integers, return the difference between the largest and the smallest integers in the list.
 
-20.Return the last element in a list
+20. Return the last element in a list
     Create a function that accepts a list and returns the last item in the list. The list can be either homogeneous or heterogeneous.
 
-21.Check if an Integer is divisible by five
+21. Check if an Integer is divisible by five
     Create a function that returns True if an integer is evenly divisible by 5, and False otherwise.
 
-22.Get the sum of all list elements
+22. Get the sum of all list elements
     Create a function that takes a list and returns the sum of all numbers in the list.
 
-23.Compare strings by count of characters
+23. Compare strings by count of characters
     Create a function that takes two strings as arguments and return either True or False depending on whether the total number of characters in the first string is equal to the total number of characters in the second string.
 
-24.Divides evenly
-    Given two integers, a and b, return True if a can be divided evenly by b. Return False otherwise.
+24. Divides evenly
+    Given two integers, a and b; return True if a can be divided evenly by b. Return False otherwise.
 
-25.Recursion to repeat a string n number of times
+25. Recursion to repeat a string n number of times
     Create a recursive function that takes two parameters and repeats the string n number of times. The first parameter text is the string to be repeated and the second parameter is the number of times the string is to be repeated.
 
-26.Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5. The numbers obtained should be printed in a comma-separated sequence on a single line. You can take any range like 2000-4700 or 3800-4900 etc. Check if both range numbers are also included in the output. 
+26. Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5. The numbers obtained should be printed in a comma-separated sequence on a single line. You can take any range like 2000-4700 or 3800-4900 etc. Check if both range numbers are also included in the output. 
 
-27.Define a class/function which has at least two methods: getString: to get a string from console input; printString: to print the string in upper case.
+27. Define a class/function which has at least two methods: getString: to get a string from console input; printString: to print the string in upper case.
 
-28.Write a program that accepts a comma separated sequence of words as input and prints the words in a comma-separated sequence after sorting them alphabetically. 
+28. Write a program that accepts a comma separated sequence of words as input and prints the words in a comma-separated sequence after sorting them alphabetically. 
 
-29.Write a program, which will find all such numbers between 0 and n (both included) such that each digit of the number is an even number. The numbers obtained should be printed in a comma-separated sequence on a single line. n: take input from console. 
+29. Write a program, which will find all such numbers between 0 and n (both included) such that each digit of the number is an even number. The numbers obtained should be printed in a comma-separated sequence on a single line. n: take input from console.
 
-30.Write a program that accepts a sentence and calculate the number of letters and digits and also calculates the upper and lower case letters.
+30. Write a program that accepts a sentence and calculate the number of letters and digits and also calculates the upper and lower case letters.
 
-31.Write a program to square each odd number in a list. Take a list that contains at least 20 elements.
+31. Write a program to square each odd number in a list. Take a list that contains at least 20 elements.
 
-32.Write a program that computes the net amount of a bank account based on a transaction log from console input. 
+32. Write a program that computes the net amount of a bank account based on a transaction log from console input. 
     Log format is :  D 100 W 200; D means deposit while W means withdrawal. 
     Input: D 300 D 300 W 200 D 100
     Output: 500
 
-33.Write a program to check the validity of password input by users. Following are the criteria for checking the password:
+33. Write a program to check the validity of password input by users. Following are the criteria for checking the password:
     At least 1 letter between [a-z]
     At least 1 number between [0-9]
     At least 1 letter between [A-Z]
