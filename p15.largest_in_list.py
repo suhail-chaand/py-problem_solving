@@ -3,7 +3,11 @@
 #Return the largest number in the list.
 
 def largest(li):
-    return max(li)
+    largest = li[0]
+    for num in li:
+        if largest<num:
+            largest=num
+    return largest
 
 my_list = list(map(int,input('Enter a list of integers: ').split()))
 

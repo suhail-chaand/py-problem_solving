@@ -2,6 +2,9 @@
 
 num1 = int(input('Enter num1: '))
 num2 = int(input('Enter num2: '))
+if num2==0:
+    print('num2 cannot be ZERO!')
+    quit()
 
 #Raw
 print('Raw method--------------------')

@@ -4,13 +4,19 @@ num = int(input('Enter an Integer: '))
 
 #Raw
 print('Raw method--------------------')
-print('Next integer is',(num+1))
+if num>=0:
+    print('Next integer is',(num+1))
+elif num<0:
+    print('Next integer is',(num-1))
 
 #Function
 print('Function method--------------------')
 
 def find_next_int(n):
-    return n+1
+    if n>=0:
+        return n+1
+    elif n<0:
+        return n-1
 
 print('Next integer is',find_next_int(num))
 
@@ -21,7 +27,10 @@ class NextInt:
     def __init__(self,n) -> None:
         self.n=n
     def find_next_int(self):
-        return self.n+1
+        if self.n>=0:
+            return self.n+1
+        elif self.n<0:
+            return self.n-1
 
 ni = NextInt(num)
 
