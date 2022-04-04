@@ -180,3 +180,27 @@ Your program should accept a sequence of comma separated passwords and will chec
 61. Get only unique items from dictionary
 
 62. Return new set of identical items from two sets
+
+63. A robot can move toward UP, DOWN, LEFT and RIGHT with a given step. The trace of robot movement is shown as the following: (Note : Take input from console)
+    UP 5
+    DOWN 3
+    LEFT 3
+    RIGHT 2
+    Please write a program to compute the distance from the current position after a sequence of movement and original point. If the distance is a float, then just print the nearest integer.
+
+64. Write a program to print the sum of angles of a polygon in degree. Take number of sides input from console. 
+
+65. Create a function that takes a string's characters as ASCII and returns each character's hexadecimal value as a string.
+
+66. Create a function that takes a number and returns its length (use of the len() function is prohibited)
+
+67. Given the month and year as numbers, return whether that month contains a Friday 13th.
+
+68. Create a function that takes a list and string. The function should remove the letters in the string from the list, and return the string.
+
+69. Create a function that takes a string containing integers as well as other characters and return the sum of the negative integers only. 
+    Ex: negatives_sum("22 13%14&-11-22 13 12") => -11 + -22 = -33
+
+70. Write a program to identify if number is palindrome or not.
+
+71. Check if a given char is vowel or consonant.
