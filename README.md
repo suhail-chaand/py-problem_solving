@@ -204,3 +204,27 @@ Your program should accept a sequence of comma separated passwords and will chec
 70. Write a program to identify if number is palindrome or not.
 
 71. Check if a given char is vowel or consonant.
+
+72. Check if a char is digit without using isdigit(); take input from console. 
+
+73. Create a function that takes two dates and returns the number of days between the first and second date.
+
+74. Create a function that takes an array of strings and returns an array with only the strings that have numbers in them. If there are no strings containing numbers, return an empty array.
+
+75. Given a string, reverse all the words which have odd length. The even length words are not changed.
+
+76. Write a function that returns the least common multiple (LCM) of two integers.
+
+77. Create a function that returns the sum of missing numbers.
+    sumMissingNumbers([1, 3, 5, 7, 10]) ➞ 29 // 2 + 4 + 6 + 8 + 9
+
+78. Given a string of letters in the English alphabet, return the letter that's missing from the string. The missing letter will make the string be in alphabetical order (from A to Z).
+    If there are no missing letters in the string, return "No Missing Letter".
+    missingLetter("abdefg") ➞ "c"
+
+79. Create a left rotation and a right rotation function that returns all the left rotations and right rotations of a string.
+    leftRotations("abc") ➞ ["abc", "bca", "cab"]
+    rightRotations("abc") ➞ ["abc", "cab", "bca"]
+
+80. Create a function that takes a string and returns it back in camelCase.
+    camelCasing("Hello World") ➞ "helloWorld"
